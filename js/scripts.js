@@ -2,7 +2,7 @@
  $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     var n = parseInt($("#n").val());
-    $("li").remove();
+    $("ul li").remove();
 
 // business logic
     for (var i = 1; i <= n ; i++) {
